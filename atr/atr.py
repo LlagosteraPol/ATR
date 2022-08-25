@@ -5,7 +5,7 @@ from random import choice
 # Local Libraries
 import graphtools
 from selector import EdgeSelector
-from relmodules import *
+from atr.relmodules import *
 
 
 def calculate_reliability(g, modules=[], prune=False, edge_selector = 'select_random'):

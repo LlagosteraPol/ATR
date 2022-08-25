@@ -1,11 +1,11 @@
-from relmodules.reliability_modules import RelModule
-from relmodules.module_cycle import ModuleCycle
+from atr.relmodules.reliability_modules import RelModule
+from atr.relmodules.module_cycle import ModuleCycle
 
 import itertools as itt
 import networkx as nx
 import sympy
 
-import graphtools
+import atr.graphtools as graphtools
 
 
 class ModuleCycleTree(RelModule):

@@ -1,4 +1,4 @@
-from relmodules.reliability_modules import RelModule
+from atr.relmodules.reliability_modules import RelModule
 
 import collections
 import copy
@@ -6,8 +6,8 @@ import itertools as itt
 import math
 import networkx as nx
 
-import graphtools
-import atr #debug
+import atr.graphtools as graphtools
+
 
 class ModuleCake(RelModule):
     base_cycle = list()
