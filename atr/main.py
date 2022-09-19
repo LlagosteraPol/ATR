@@ -3,7 +3,7 @@ import sympy
 import sys
 from random import choice
 # Local Libraries
-import graphtools
+from . import graphtools
 from selector import EdgeSelector
 from atr.relmodules import *
 

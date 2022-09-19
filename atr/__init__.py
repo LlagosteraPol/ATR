@@ -1,7 +1,7 @@
 __author__ = 'Pol Llagostera Blasco'
-from atr import relmodules
-from atr.main import calculate_reliability
-import graphtools
-import selector
+from . import relmodules
+from .main import calculate_reliability
+from . import graphtools
+from . import selector
 
 
