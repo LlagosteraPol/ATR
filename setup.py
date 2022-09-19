@@ -9,7 +9,8 @@ setup(
     url='https://github.com/LlagosteraPol/ATR',
     license='LICENSE.txt',
     description='This library provides a tool to calculate the all-terminal reliability polynomial of any undirected graph.',
-    long_description=open('README.rst').read(),
+    long_description='README.rst',
+    long_description_content_type='text/markdown',
     install_requires=[
            "networkx >= 2.5.1",
            "sympy >= 1.4.0",
