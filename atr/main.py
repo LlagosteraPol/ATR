@@ -4,7 +4,7 @@ import sys
 from random import choice
 # Local Libraries
 from . import graphtools
-from selector import EdgeSelector
+from .selector import EdgeSelector
 from atr.relmodules import *
 
 

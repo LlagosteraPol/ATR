@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='atr',
-    version='1.0.0',
+    version='1.0.1',
     author='Pol Llagostera Blasco',
     author_email='llagosterapol.work@gmail.com',
     packages=['atr', 'atr.relmodules'],
