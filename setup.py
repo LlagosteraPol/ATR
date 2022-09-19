@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='ATR',
+    name='atr',
     version='1.0.0',
-    packages=['ATR', 'ATR.relmodules'],
+    packages=['atr', 'atr.relmodules'],
     url='https://github.com/LlagosteraPol/ATR',
     license='MIT License',
     author='Pol Llagostera Blasco',
